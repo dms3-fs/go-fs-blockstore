@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	blocks "github.com/ipfs/go-block-format"
-	ds "github.com/ipfs/go-datastore"
-	dsq "github.com/ipfs/go-datastore/query"
-	syncds "github.com/ipfs/go-datastore/sync"
+	blocks "github.com/dms3-fs/go-block-format"
+	ds "github.com/dms3-fs/go-datastore"
+	dsq "github.com/dms3-fs/go-datastore/query"
+	syncds "github.com/dms3-fs/go-datastore/sync"
 )
 
 func testBloomCached(ctx context.Context, bs Blockstore) (*bloomcache, error) {

@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"testing"
 
-	blocks "github.com/ipfs/go-block-format"
-	cid "github.com/ipfs/go-cid"
-	ds "github.com/ipfs/go-datastore"
-	dsq "github.com/ipfs/go-datastore/query"
-	ds_sync "github.com/ipfs/go-datastore/sync"
-	u "github.com/ipfs/go-ipfs-util"
+	blocks "github.com/dms3-fs/go-block-format"
+	cid "github.com/dms3-fs/go-cid"
+	ds "github.com/dms3-fs/go-datastore"
+	dsq "github.com/dms3-fs/go-datastore/query"
+	ds_sync "github.com/dms3-fs/go-datastore/sync"
+	u "github.com/dms3-fs/go-fs-util"
 )
 
 func TestGetWhenKeyNotPresent(t *testing.T) {

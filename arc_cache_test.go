@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	blocks "github.com/ipfs/go-block-format"
-	cid "github.com/ipfs/go-cid"
-	ds "github.com/ipfs/go-datastore"
-	syncds "github.com/ipfs/go-datastore/sync"
+	blocks "github.com/dms3-fs/go-block-format"
+	cid "github.com/dms3-fs/go-cid"
+	ds "github.com/dms3-fs/go-datastore"
+	syncds "github.com/dms3-fs/go-datastore/sync"
 )
 
 var exampleBlock = blocks.NewBlock([]byte("foo"))

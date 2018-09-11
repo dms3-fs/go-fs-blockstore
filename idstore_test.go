@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	blk "github.com/ipfs/go-block-format"
-	cid "github.com/ipfs/go-cid"
-	ds "github.com/ipfs/go-datastore"
-	mh "github.com/multiformats/go-multihash"
+	blk "github.com/dms3-fs/go-block-format"
+	cid "github.com/dms3-fs/go-cid"
+	ds "github.com/dms3-fs/go-datastore"
+	mh "github.com/dms3-mft/go-multihash"
 )
 
 func createTestStores() (Blockstore, *callbackDatastore) {

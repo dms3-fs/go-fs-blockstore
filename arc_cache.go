@@ -4,9 +4,9 @@ import (
 	"context"
 
 	lru "github.com/hashicorp/golang-lru"
-	blocks "github.com/ipfs/go-block-format"
-	cid "github.com/ipfs/go-cid"
-	metrics "github.com/ipfs/go-metrics-interface"
+	blocks "github.com/dms3-fs/go-block-format"
+	cid "github.com/dms3-fs/go-cid"
+	metrics "github.com/dms3-fs/go-metrics-interface"
 )
 
 type cacheHave bool

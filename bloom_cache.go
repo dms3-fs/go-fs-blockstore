@@ -5,10 +5,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	bloom "github.com/ipfs/bbloom"
-	blocks "github.com/ipfs/go-block-format"
-	cid "github.com/ipfs/go-cid"
-	metrics "github.com/ipfs/go-metrics-interface"
+	bloom "github.com/dms3-fs/bbloom"
+	blocks "github.com/dms3-fs/go-block-format"
+	cid "github.com/dms3-fs/go-cid"
+	metrics "github.com/dms3-fs/go-metrics-interface"
 )
 
 // bloomCached returns a Blockstore that caches Has requests using a Bloom

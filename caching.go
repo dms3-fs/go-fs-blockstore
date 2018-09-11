@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	metrics "github.com/ipfs/go-metrics-interface"
+	metrics "github.com/dms3-fs/go-metrics-interface"
 )
 
 // CacheOpts wraps options for CachedBlockStore().
